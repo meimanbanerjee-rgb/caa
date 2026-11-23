@@ -1,0 +1,8 @@
+order_id,order_date,customer_id,state,units,unit_price,revenue
+ORD-901,2026-01-01,CUST-A,NY,2,100.00,200.00
+ORD-902,01/02/2026,CUST-B,New York,5,50.00,250.00
+ORD-903,2026-01-05,CUST-C,CA,,30.00,
+ORD-904,2026-01-06,CUST-D,California,10,20.00,200.00
+ORD-902,01/02/2026,CUST-B,New York,5,50.00,250.00
+ORD-905,invalid-date,CUST-E,TX,4,not-a-number,160.00
+ORD-906,2026-01-10,CUST-F,Texas,100,5.00,500.00

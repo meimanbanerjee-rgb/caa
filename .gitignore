@@ -1,0 +1,43 @@
+# InsightForge AI - Root .gitignore
+# Prevents secrets, environment configurations, build artifacts, and virtual environments from being committed.
+
+# Environment and Secrets
+.env
+*.local
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# SQLite Database and local uploads
+*.db
+*.sqlite3
+backend/app/storage/uploads/
+backend/storage/uploads/
+uploads/
+reports_out/
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

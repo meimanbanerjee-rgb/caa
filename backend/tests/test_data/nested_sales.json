@@ -1,0 +1,31 @@
+[
+  {
+    "order_id": "ORD-JSON-001",
+    "timestamp": "2026-03-01T10:15:00Z",
+    "customer": {
+      "id": "C-901",
+      "name": "Acme Corp",
+      "tier": "enterprise"
+    },
+    "items": [
+      { "sku": "SKU-A", "name": "Server Rack", "quantity": 2, "price": 1500.0 },
+      { "sku": "SKU-B", "name": "Switch 24p", "quantity": 4, "price": 250.0 }
+    ],
+    "total_amount": 4000.0,
+    "payment_status": "settled"
+  },
+  {
+    "order_id": "ORD-JSON-002",
+    "timestamp": "2026-03-02T14:30:00Z",
+    "customer": {
+      "id": "C-902",
+      "name": "Beta Labs",
+      "tier": "startup"
+    },
+    "items": [
+      { "sku": "SKU-C", "name": "Workstation", "quantity": 1, "price": 2200.0 }
+    ],
+    "total_amount": 2200.0,
+    "payment_status": "settled"
+  }
+]
